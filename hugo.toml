@@ -34,27 +34,22 @@ paginate     = 10
 [taxonomies]
     category = "blog"
     tag      = "tags"
-    series   = "series"
 
 [languages]
   [languages.en]
     title = "Samir Tapiero"
-    subtitle = "Software Engineer"
-    keywords = "Ruby, Javascript, Python"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     [languages.en.params.logo]
-      logoText = "samir tapiero"
-      logoHomeLink = "/"
+      logoText = "Samir Tapiero"
+      logoHomeLink = "/en"
   [languages.es]
     title = "Samir Tapiero"
-    subtitle = "Ingeniero de Sistemas"
-    keywords = "Ruby, Javascript, Python"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     [languages.es.params.logo]
       logoText = "samir tapiero"
-      logoHomeLink = "/"
+      logoHomeLink = "/es"
 
   # And you can even create generic menu
   [[menu.main]]
@@ -68,5 +63,5 @@ paginate     = 10
     topText = ['Hello for everyone']
     bottomText = [
       "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Usign the theme <a href=\"https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng\">hello-fiend-ng</a>"
+      "Usign the theme <a href=\"https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng\">hello-friend-ng</a>"
     ]
